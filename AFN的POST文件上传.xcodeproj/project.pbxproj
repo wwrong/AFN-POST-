@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA034CF61CE9660500969C04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA034CF51CE9660500969C04 /* main.m */; };
+		EA034CF91CE9660500969C04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA034CF81CE9660500969C04 /* AppDelegate.m */; };
+		EA034CFC1CE9660500969C04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA034CFB1CE9660500969C04 /* ViewController.m */; };
+		EA034CFF1CE9660500969C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA034CFD1CE9660500969C04 /* Main.storyboard */; };
+		EA034D011CE9660500969C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA034D001CE9660500969C04 /* Assets.xcassets */; };
+		EA034D041CE9660500969C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA034D021CE9660500969C04 /* LaunchScreen.storyboard */; };
+		EA034D0F1CE9660500969C04 /* AFN_POST____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA034D0E1CE9660500969C04 /* AFN_POST____Tests.m */; };
+		EA034D1A1CE9660500969C04 /* AFN_POST____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA034D191CE9660500969C04 /* AFN_POST____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA034D0B1CE9660500969C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA034CE91CE9660500969C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA034CF01CE9660500969C04;
+			remoteInfo = "AFN的POST文件上传";
+		};
+		EA034D161CE9660500969C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA034CE91CE9660500969C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA034CF01CE9660500969C04;
+			remoteInfo = "AFN的POST文件上传";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA034CF11CE9660500969C04 /* AFN的POST文件上传.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFN的POST文件上传.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA034CF51CE9660500969C04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA034CF71CE9660500969C04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA034CF81CE9660500969C04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA034CFA1CE9660500969C04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA034CFB1CE9660500969C04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA034CFE1CE9660500969C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA034D001CE9660500969C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA034D031CE9660500969C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA034D051CE9660500969C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA034D0A1CE9660500969C04 /* AFN的POST文件上传Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFN的POST文件上传Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA034D0E1CE9660500969C04 /* AFN_POST____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFN_POST____Tests.m"; sourceTree = "<group>"; };
+		EA034D101CE9660500969C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA034D151CE9660500969C04 /* AFN的POST文件上传UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFN的POST文件上传UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA034D191CE9660500969C04 /* AFN_POST____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFN_POST____UITests.m"; sourceTree = "<group>"; };
+		EA034D1B1CE9660500969C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA034CEE1CE9660500969C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA034D071CE9660500969C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA034D121CE9660500969C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA034CE81CE9660500969C04 = {
+			isa = PBXGroup;
+			children = (
+				EA034CF31CE9660500969C04 /* AFN的POST文件上传 */,
+				EA034D0D1CE9660500969C04 /* AFN的POST文件上传Tests */,
+				EA034D181CE9660500969C04 /* AFN的POST文件上传UITests */,
+				EA034CF21CE9660500969C04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA034CF21CE9660500969C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA034CF11CE9660500969C04 /* AFN的POST文件上传.app */,
+				EA034D0A1CE9660500969C04 /* AFN的POST文件上传Tests.xctest */,
+				EA034D151CE9660500969C04 /* AFN的POST文件上传UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA034CF31CE9660500969C04 /* AFN的POST文件上传 */ = {
+			isa = PBXGroup;
+			children = (
+				EA034CF71CE9660500969C04 /* AppDelegate.h */,
+				EA034CF81CE9660500969C04 /* AppDelegate.m */,
+				EA034CFA1CE9660500969C04 /* ViewController.h */,
+				EA034CFB1CE9660500969C04 /* ViewController.m */,
+				EA034CFD1CE9660500969C04 /* Main.storyboard */,
+				EA034D001CE9660500969C04 /* Assets.xcassets */,
+				EA034D021CE9660500969C04 /* LaunchScreen.storyboard */,
+				EA034D051CE9660500969C04 /* Info.plist */,
+				EA034CF41CE9660500969C04 /* Supporting Files */,
+			);
+			path = "AFN的POST文件上传";
+			sourceTree = "<group>";
+		};
+		EA034CF41CE9660500969C04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA034CF51CE9660500969C04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA034D0D1CE9660500969C04 /* AFN的POST文件上传Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA034D0E1CE9660500969C04 /* AFN_POST____Tests.m */,
+				EA034D101CE9660500969C04 /* Info.plist */,
+			);
+			path = "AFN的POST文件上传Tests";
+			sourceTree = "<group>";
+		};
+		EA034D181CE9660500969C04 /* AFN的POST文件上传UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA034D191CE9660500969C04 /* AFN_POST____UITests.m */,
+				EA034D1B1CE9660500969C04 /* Info.plist */,
+			);
+			path = "AFN的POST文件上传UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA034CF01CE9660500969C04 /* AFN的POST文件上传 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA034D1E1CE9660500969C04 /* Build configuration list for PBXNativeTarget "AFN的POST文件上传" */;
+			buildPhases = (
+				EA034CED1CE9660500969C04 /* Sources */,
+				EA034CEE1CE9660500969C04 /* Frameworks */,
+				EA034CEF1CE9660500969C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFN的POST文件上传";
+			productName = "AFN的POST文件上传";
+			productReference = EA034CF11CE9660500969C04 /* AFN的POST文件上传.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA034D091CE9660500969C04 /* AFN的POST文件上传Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA034D211CE9660500969C04 /* Build configuration list for PBXNativeTarget "AFN的POST文件上传Tests" */;
+			buildPhases = (
+				EA034D061CE9660500969C04 /* Sources */,
+				EA034D071CE9660500969C04 /* Frameworks */,
+				EA034D081CE9660500969C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA034D0C1CE9660500969C04 /* PBXTargetDependency */,
+			);
+			name = "AFN的POST文件上传Tests";
+			productName = "AFN的POST文件上传Tests";
+			productReference = EA034D0A1CE9660500969C04 /* AFN的POST文件上传Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA034D141CE9660500969C04 /* AFN的POST文件上传UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA034D241CE9660500969C04 /* Build configuration list for PBXNativeTarget "AFN的POST文件上传UITests" */;
+			buildPhases = (
+				EA034D111CE9660500969C04 /* Sources */,
+				EA034D121CE9660500969C04 /* Frameworks */,
+				EA034D131CE9660500969C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA034D171CE9660500969C04 /* PBXTargetDependency */,
+			);
+			name = "AFN的POST文件上传UITests";
+			productName = "AFN的POST文件上传UITests";
+			productReference = EA034D151CE9660500969C04 /* AFN的POST文件上传UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA034CE91CE9660500969C04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Guan Nan Wang";
+				TargetAttributes = {
+					EA034CF01CE9660500969C04 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 94474947CR;
+					};
+					EA034D091CE9660500969C04 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 94474947CR;
+						TestTargetID = EA034CF01CE9660500969C04;
+					};
+					EA034D141CE9660500969C04 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 94474947CR;
+						TestTargetID = EA034CF01CE9660500969C04;
+					};
+				};
+			};
+			buildConfigurationList = EA034CEC1CE9660500969C04 /* Build configuration list for PBXProject "AFN的POST文件上传" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA034CE81CE9660500969C04;
+			productRefGroup = EA034CF21CE9660500969C04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA034CF01CE9660500969C04 /* AFN的POST文件上传 */,
+				EA034D091CE9660500969C04 /* AFN的POST文件上传Tests */,
+				EA034D141CE9660500969C04 /* AFN的POST文件上传UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA034CEF1CE9660500969C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA034D041CE9660500969C04 /* LaunchScreen.storyboard in Resources */,
+				EA034D011CE9660500969C04 /* Assets.xcassets in Resources */,
+				EA034CFF1CE9660500969C04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA034D081CE9660500969C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA034D131CE9660500969C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA034CED1CE9660500969C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA034CFC1CE9660500969C04 /* ViewController.m in Sources */,
+				EA034CF91CE9660500969C04 /* AppDelegate.m in Sources */,
+				EA034CF61CE9660500969C04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA034D061CE9660500969C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA034D0F1CE9660500969C04 /* AFN_POST____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA034D111CE9660500969C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA034D1A1CE9660500969C04 /* AFN_POST____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA034D0C1CE9660500969C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA034CF01CE9660500969C04 /* AFN的POST文件上传 */;
+			targetProxy = EA034D0B1CE9660500969C04 /* PBXContainerItemProxy */;
+		};
+		EA034D171CE9660500969C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA034CF01CE9660500969C04 /* AFN的POST文件上传 */;
+			targetProxy = EA034D161CE9660500969C04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA034CFD1CE9660500969C04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA034CFE1CE9660500969C04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA034D021CE9660500969C04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA034D031CE9660500969C04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA034D1C1CE9660500969C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA034D1D1CE9660500969C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA034D1F1CE9660500969C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AFN的POST文件上传/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.AFN-POST----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA034D201CE9660500969C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AFN的POST文件上传/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.AFN-POST----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA034D221CE9660500969C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AFN的POST文件上传Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.AFN-POST----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFN的POST文件上传.app/AFN的POST文件上传";
+			};
+			name = Debug;
+		};
+		EA034D231CE9660500969C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AFN的POST文件上传Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.AFN-POST----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFN的POST文件上传.app/AFN的POST文件上传";
+			};
+			name = Release;
+		};
+		EA034D251CE9660500969C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AFN的POST文件上传UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.AFN-POST----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AFN的POST文件上传";
+			};
+			name = Debug;
+		};
+		EA034D261CE9660500969C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AFN的POST文件上传UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gn.AFN-POST----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AFN的POST文件上传";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA034CEC1CE9660500969C04 /* Build configuration list for PBXProject "AFN的POST文件上传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA034D1C1CE9660500969C04 /* Debug */,
+				EA034D1D1CE9660500969C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA034D1E1CE9660500969C04 /* Build configuration list for PBXNativeTarget "AFN的POST文件上传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA034D1F1CE9660500969C04 /* Debug */,
+				EA034D201CE9660500969C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA034D211CE9660500969C04 /* Build configuration list for PBXNativeTarget "AFN的POST文件上传Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA034D221CE9660500969C04 /* Debug */,
+				EA034D231CE9660500969C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA034D241CE9660500969C04 /* Build configuration list for PBXNativeTarget "AFN的POST文件上传UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA034D251CE9660500969C04 /* Debug */,
+				EA034D261CE9660500969C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA034CE91CE9660500969C04 /* Project object */;
+}
